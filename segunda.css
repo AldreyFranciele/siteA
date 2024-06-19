@@ -11,6 +11,7 @@
  height: 100px;
  display: flex;
  justify-content: baseline;
+ background-color: rgb(112, 112, 106);
 
  align-items: center;
  }
@@ -37,13 +38,14 @@ body{
     background-color: crimson;
 }
 p{
-    font-size: 20px;
+    font-size: 26px;
     padding: 50px;
     text-align: justify;
-    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 h2{
-    font-size: 60px;
+    font-size: 20px;
 
 }
 img{
@@ -60,10 +62,15 @@ border: 40px darkgoldenrod;
 }
 h1{
     text-align: center;
+    font-size: 70px;
+    color: rgb(27, 197, 160);
 
 }
 p:hover{
 
-    background-color: azure;
+    background-color: rgba(133, 123, 91, 0.438);
+}
+a{
+    text-decoration: none;
 }
 

@@ -11,8 +11,8 @@
  height: 100px;
  display: flex;
  justify-content: baseline;
-
  align-items: center;
+ background-color: rgb(117, 117, 109);
  }
  li{
  list-style: none;
@@ -40,11 +40,12 @@ body{
 p{
     font-size: 30px;
     color: rgb(255, 255, 255);
+    padding: 40px;
 }
 h2{
     font-size: 60px;
     text-align: center;
-color: antiquewhite;
+color: rgb(66, 92, 240);
 }
 img{
     border: 10px rgb(17, 0, 255);
@@ -60,7 +61,13 @@ border: 40px darkgoldenrod;
 }
 h1{
     text-align: center;
+font-size: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: burlywood;
 
+}
+a{
+    text-decoration: none;
 }
 
 

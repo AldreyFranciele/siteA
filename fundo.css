@@ -11,7 +11,7 @@ body{
  
  header{
  
- border: 5px solid rgba(0, 0, 0, 0.527) ;
+ border: 5px solid rgba(0, 0, 0, 0.377) ;
  width: 100vw;
  height: 100px;
  display: flex;
@@ -38,13 +38,17 @@ font-size: small 20px;
 
 p{
     font-size: 30px;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    font-family: cursive;
+    
 }
 h2{
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
-    color: brown;
-
+    color: rgb(6, 55, 75);
+font-size: 80px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 img{
@@ -58,4 +62,11 @@ img{
     margin: 100px;
 border: 40px darkgoldenrod;
 
+}
+p:hover{
+
+    background-color: rgba(0, 0, 0, 0.432);
+}
+a{
+    text-decoration: none;
 }
